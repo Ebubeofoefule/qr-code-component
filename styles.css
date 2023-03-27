@@ -16,16 +16,16 @@ body {
   padding: 0;
 }
 
-.attribution {
+footer {
   font-size: 11px;
   text-align: center;
 }
 
-.attribution a {
+footer a {
   color: hsl(228, 45%, 44%);
 }
 
-.container {
+main {
   border-radius: 15px;
   padding: 15px;
   background-color: white;
@@ -39,60 +39,61 @@ img {
   margin-bottom: px;
 }
 
-.container h2 {
+main h1 {
   color: hsl(218, 44%, 22%);
   text-align: center;
+  font-size: 22.5px;
 }
 
-.container p {
+main p {
   color: hsl(220, 15%, 55%);
   text-align: center;
 }
 
 @media (min-width: 500px) {
-  .container {
+  main {
     width: 270px;
   }
 }
 
 @media (max-width: 500px) {
-    .container {
-      width: 270px;
-    }
+  main {
+    width: 270px;
   }
+}
 
-  @media (max-width: 310px) {
-    .container {
-      width: 250px;
-    }
+@media (max-width: 310px) {
+  main {
+    width: 250px;
   }
+}
 
-  @media (max-width: 290px) {
-    .container {
-      width: 240px;
-    }
+@media (max-width: 290px) {
+  main {
+    width: 240px;
   }
+}
 
-  @media (max-width: 280px) {
-    .container {
-      width: 230px;
-    }
+@media (max-width: 280px) {
+  main {
+    width: 230px;
   }
+}
 
-  @media (max-width: 270px) {
-    .container {
-      width: 220px;
-    }
+@media (max-width: 270px) {
+  main {
+    width: 220px;
   }
+}
 
-  @media (max-width: 260px) {
-    .container {
-      width: 210px;
-    }
+@media (max-width: 260px) {
+  main {
+    width: 210px;
   }
+}
 
-  @media (max-width: 250px) {
-    .container {
-      width: 200px;
-    }
+@media (max-width: 250px) {
+  main {
+    width: 200px;
   }
+}
